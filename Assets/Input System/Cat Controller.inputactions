@@ -1,0 +1,34 @@
+{
+    "name": "Cat Controller",
+    "maps": [
+        {
+            "name": "Base Movement",
+            "id": "e6eaf38e-8447-4114-be3a-c1b788a754c7",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "f5e7a15b-1dc4-4615-b817-66a3f7cb8661",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3e143e8d-5bd1-42c5-85cf-ec3888c74064",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
